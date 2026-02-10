@@ -1,0 +1,25 @@
+{
+    "server": {
+        "host": "127.0.0.1",
+        "port": 8000,
+        "reload": true,
+        "workers": 1
+    },
+    "processing": {
+        "default_batch_size": 10000,
+        "max_concurrent_requests": 100,
+        "timeout_seconds": 300
+    },
+    "logging": {
+        "level": "INFO",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        "server_log_file": "server-config.log",
+        "client_log_file": "client.log"
+    },
+    "paths": {
+        "input_directory": "data/input",
+        "output_directory": "data/output",
+        "temp_directory": "data/temp",
+        "logs_directory": "logs"
+    }
+}

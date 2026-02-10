@@ -1,0 +1,201 @@
+{
+  "info": {
+    "_postman_id": "chain-weighting-api-collection",
+    "name": "Chain Weighting Analysis API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Postman collection for testing the Enhanced Chain Weighting Analysis API"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/health",
+          "protocol": "http",
+          "host": [
+            "{{host}}"
+          ],
+          "port": "{{port}}",
+          "path": [
+            "api",
+            "v1",
+            "health"
+          ]
+        },
+        "description": "Check the health status of the API service"
+      },
+      "response": []
+    },
+    {
+      "name": "API Root",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/",
+          "protocol": "http",
+          "host": [
+            "{{host}}"
+          ],
+          "port": "{{port}}",
+          "path": [
+            ""
+          ]
+        },
+        "description": "Get API root information and documentation links"
+      },
+      "response": []
+    },
+    {
+      "name": "Service Statistics",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/stats",
+          "protocol": "http",
+          "host": [
+            "{{host}}"
+          ],
+          "port": "{{port}}",
+          "path": [
+            "api",
+            "v1",
+            "stats"
+          ]
+        },
+        "description": "Get processing statistics and service metrics"
+      },
+      "response": []
+    },
+    {
+      "name": "Process Chains",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"chains\": [\n    \"Hello World Test\",\n    \"Amazing Apples\",\n    \"Test Chain 123\",\n    \"Another Sample Chain\"\n  ]\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/process-chains",
+          "protocol": "http",
+          "host": [
+            "{{host}}"
+          ],
+          "port": "{{port}}",
+          "path": [
+            "api",
+            "v1",
+            "process-chains"
+          ]
+        },
+        "description": "Process multiple character chains and calculate their weight metrics"
+      },
+      "response": []
+    },
+    {
+      "name": "Process Large Dataset",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"chains\": [\n    \"The quick brown fox jumps over the lazy dog\",\n    \"Pack my box with five dozen liquor jugs\",\n    \"How vexingly quick daft zebras jump!\",\n    \"Bright vixens jump; dozy fowl quack.\",\n    \"Sphinx of black quartz, judge my vow.\",\n    \"Waltz, bad nymph, for quick jigs vex.\",\n    \"Glib jocks quiz nymph to vex dwarf.\",\n    \"Jived fox nymph grabs quick waltz.\",\n    \"Jovial fakirs sizzle with exuding chumps.\",\n    \"Cozy sphinx waves quart jug of bad milk.\"\n  ]\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/process-chains",
+          "protocol": "http",
+          "host": [
+            "{{host}}"
+          ],
+          "port": "{{port}}",
+          "path": [
+            "api",
+            "v1",
+            "process-chains"
+          ]
+        },
+        "description": "Process a larger dataset of chains to test performance"
+      },
+      "response": []
+    },
+    {
+      "name": "Process Chains with Special Cases",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"chains\": [\n    \"Chain with aaa consecutive a's\", \n    \"Normal chain without consecutive a\",\n    \"Another chain with aa\",\n    \"Chain with digits 1234567890\",\n    \"Mixed chain with spaces and 123\"\n  ]\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/process-chains",
+          "protocol": "http",
+          "host": [
+            "{{host}}"
+          ],
+          "port": "{{port}}",
+          "path": [
+            "api",
+            "v1",
+            "process-chains"
+          ]
+        },
+        "description": "Test processing chains with special cases like consecutive 'a's and digits"
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "// Pre-request script"
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "// Test script"
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "host",
+      "value": "127.0.0.1"
+    },
+    {
+      "key": "port",
+      "value": "8000"
+    },
+    {
+      "key": "baseUrl",
+      "value": "http://127.0.0.1:8000"
+    }
+  ]
+}

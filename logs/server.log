@@ -1,0 +1,392 @@
+2026-02-10 12:50:13,980 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:14,333 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:14,697 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:15,049 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:15,402 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:15,765 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:16,126 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:16,489 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:16,852 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:17,207 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:17,566 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:17,923 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:18,281 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:18,637 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:19,001 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:19,365 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:19,717 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:20,074 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:20,433 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:20,786 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:21,139 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:21,496 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:21,849 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:22,210 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:22,564 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:22,927 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:23,293 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:23,563 - __main__ - INFO - New socket connection from ('127.0.0.1', 52066)
+2026-02-10 12:50:23,563 - __main__ - WARNING - Double 'a' rule detected >> 'Yp02eAa84jfYWEf4LF421BaC9Kl0MzccPuSP3wOtN560L4b3r3JosCR0DGPNvZ50TjBPl FcjE stXyvvAXQQ pwRIC'
+2026-02-10 12:50:23,564 - __main__ - WARNING - Double 'a' rule detected >> 'RehuL 8AAvncfqb9 aFTM8CVKEDZiUhhQPx BpMVjgwA lGLfIKzcdSHo3 POunkDA83fqL4m3MuZ'
+2026-02-10 12:50:23,565 - __main__ - WARNING - Double 'a' rule detected >> 'lorKu4JRrCWjw1CzW SApJ aapqj6GP2RahM65 ZvSmGqnEag jZ6fFxUln2u2JI'
+2026-02-10 12:50:23,565 - __main__ - WARNING - Double 'a' rule detected >> '2os5CJ AAVFlu RkCOHqsejjf0q FAQD07lOFSMpu 7QLsjOkWrGsr8VBu cZ'
+2026-02-10 12:50:23,566 - __main__ - WARNING - Double 'a' rule detected >> '6rXQldmFNLf0KUnVvzAKYX9vL7UpMs0fSb YbHu MipsJE0qVtN iEGfAFu SAavNm'
+2026-02-10 12:50:23,566 - __main__ - WARNING - Double 'a' rule detected >> 'AOnXeJz9j3kDYA3 ZebERYEurdUd Yf2onel8J46Mf h0QoAAGi9PuqqSBthAuhQtVbHj'
+2026-02-10 12:50:23,567 - __main__ - WARNING - Double 'a' rule detected >> 'AXYqhg EFaOdlB0RWjQ1P dAa1fIZOPcoChW RXbkfmd1zGHOBMXAf aLezqmc0fkR4PLS9xFo kUEX'
+2026-02-10 12:50:23,567 - __main__ - WARNING - Double 'a' rule detected >> 'VDfu6mj8 vt aA04keT aQnOP2 ITHrE1NIayVXGnPjiWwYNSdpJOMnNwiE uI'
+2026-02-10 12:50:23,568 - __main__ - WARNING - Double 'a' rule detected >> 'L9gPc4I RpgXtH7Wz4zkc8OQlmnO gySe0k5zRUTH5aAQSHW6LvJ0eNXu3VpX2EFnodT knBVRhIf BabiR7kLrh'
+2026-02-10 12:50:23,568 - __main__ - WARNING - Double 'a' rule detected >> '9f5hjm2NHx4naaGLjJ2Kq aigU17 vZyxzJSht KG qAZA zx5'
+2026-02-10 12:50:23,569 - __main__ - WARNING - Double 'a' rule detected >> '3ypNxBaaDYg5ZZy26wXPZYMJVObUDr0mAll66 Vx6QXO9H13D7 vhQ6SF0V XK8Cv3K9JA w1CxdHLdNgxBerajwc22sl'
+2026-02-10 12:50:23,569 - __main__ - WARNING - Double 'a' rule detected >> 'OYeh2H16pViw15 jOKCRbAaF40W5VM0Aw82hM hp519VKd3q1 cF3s5UKUZ3qF mgaiHKB 9'
+2026-02-10 12:50:23,570 - __main__ - WARNING - Double 'a' rule detected >> '7AMXIC XU63nZuCgE0l0a9lLznCGl7AZae M67rEltjelg OvSQgC0bh7lDADh Aa d5ERFLfYGMBIG86CnbX'
+2026-02-10 12:50:23,570 - __main__ - WARNING - Double 'a' rule detected >> 'PBx6GElX8JXVUzCGtKaoTIQKEqD1JFuF ztmgaaR2IeT66zcluE9GtvCh6wdro u6pfJMiCCcR2M1PQAN1SyPwR a1svXTI'
+2026-02-10 12:50:23,571 - __main__ - WARNING - Double 'a' rule detected >> 'UCFkFMVJwPJ7uSs QqVRjh15jlZaSIaXBrY4duGWJkwOwrE9l nLXaahhqsK8SNpuA3bCRQ6oQgRSYSxtKXP iPChci'
+2026-02-10 12:50:23,571 - __main__ - WARNING - Double 'a' rule detected >> 'rgrib5cRQnyiDmFkba1vKYvTvv THwEOLbOJvDbvv1Pqb BaaYMiiZInAK4 5kMHIyp7m WDdNEJ GBmyIzQvQAf7Yq2nr9'
+2026-02-10 12:50:23,572 - __main__ - WARNING - Double 'a' rule detected >> 'fOmAX9N9J0m aIOY42Jpa7S ssKsLEgsrN8nWy27vcVo bI BkBwVKAAhV6nZxiwO5vxH'
+2026-02-10 12:50:23,572 - __main__ - WARNING - Double 'a' rule detected >> 'Ega rY0j8Fq Zspu0at DNynJfBAAxBeL50yR9Tj ubVftT5G8 uoXlCw'
+2026-02-10 12:50:23,573 - __main__ - WARNING - Double 'a' rule detected >> 'oVodbq5oFbZU466xTZ14oNJL8zdIn3mtCAAwZTO TDQixSll2 10DDVWJpPyBVJr9FoAclP z9zWR4hcsjgQlcf nrOQiS3'
+2026-02-10 12:50:23,573 - __main__ - WARNING - Double 'a' rule detected >> 'zcMNjyvSPTO6D6nepq IzFaiLUvebnBMEE5U RLQ t8 fIhk SNGOGFfS17aaQ5hvvMgH56AZ1cqgXi'
+2026-02-10 12:50:23,574 - __main__ - WARNING - Double 'a' rule detected >> 'SdtH2o mLlrFusOO1kX1F 9Kdsiqse gGG7POfSk 1PJ cwW8xgU6n4VZCXI6Daaq'
+2026-02-10 12:50:23,574 - __main__ - WARNING - Double 'a' rule detected >> 'nBVRG BaKj4Wu6k8aaE24GkZnRIjVxuj UJbJn4R88IEL4CDfgFVM8yHIv MKm ned2I3Fm cL09T9bmFCJLEn'
+2026-02-10 12:50:23,575 - __main__ - WARNING - Double 'a' rule detected >> 'u2Z5oAtFi wd 0WRqHOPtsmQaAx84xJ5ec 1Se98VeAL 4A1HUa5Cw'
+2026-02-10 12:50:23,575 - __main__ - WARNING - Double 'a' rule detected >> 'sgn 4T0j0a0TeaayGWuu550NJmJyoEsrUlYhbxJ7rIqq6DM ww1j Z7cF6laaMGiF wRAQJgi47Tf bfWXv57oN4'
+2026-02-10 12:50:23,576 - __main__ - WARNING - Double 'a' rule detected >> 'j1udZ6712p00eKZKantC8bFhJ7MzQJjz5fVRdcl1OYcfBqp Rsa9EAaNBYCtGl rcBOa8Jz5HuRQYeO7t3TlOfcUL ErVWbHp'
+2026-02-10 12:50:23,576 - __main__ - WARNING - Double 'a' rule detected >> 'TN hZhBpeP nzntaqGPOCUhmJMHUiDFkRZnysIeU1qHKKsWJxWiPdGQk2eMf3is1Mx7GBLtmyjKSF2dlYaBTAHPVAAP Gn'
+2026-02-10 12:50:23,576 - __main__ - WARNING - Double 'a' rule detected >> 'eYEApMq362KtHmdl2y7kZbl28F TNuK61rpUO6EQ2ybVKIZAEAGxnFWl0Qkf AyLzTBCjIanpumVLxdsl3gH7QchcaAwn 5'
+2026-02-10 12:50:23,577 - __main__ - WARNING - Double 'a' rule detected >> 'pbryeW3AAq12viD9AVwPoeXvOn CtjqgF t1NGZEMOhqXeXj jWZ5iAHvasbQ pjt0q NCF'
+2026-02-10 12:50:23,577 - __main__ - WARNING - Double 'a' rule detected >> 'Taa UKXB8MdYUUiYtZFMCVQ msDR5VEPIIPHrUINJf8 Cnj8uyKMEA0SmiMNJUlhIgYA'
+2026-02-10 12:50:23,578 - __main__ - WARNING - Double 'a' rule detected >> 'L3MTUDD3IBqi3bWdZWPxJSeMIMa LMkjLW78 uyaa tw AykY0eHvuNu FoSJXlSsvfTRYIo0I4x7Nv'
+2026-02-10 12:50:23,578 - __main__ - WARNING - Double 'a' rule detected >> 'iezCbSqgm1Ln40Kuv jXQoHM8F jtce8r0PTftvHAov aA7XCVBT8'
+2026-02-10 12:50:23,579 - __main__ - WARNING - Double 'a' rule detected >> 'jheFeWZP6z3x Y8HOA0BBE6alkyelRmUzx5RcGrlC PGUa0cnbK5xgAuFapHaAB599 TzE zIsBR'
+2026-02-10 12:50:23,579 - __main__ - WARNING - Double 'a' rule detected >> '8l1v0 BPUNCeYyjdcOemy42pnb1psq6hxRmLAAagcW biA2CFaldEm RuZt0uo5m'
+2026-02-10 12:50:23,579 - __main__ - WARNING - Double 'a' rule detected >> 'GHq8CcFWT3AECc8cHHLrqEK9HzZfi2hkyC19LhcKfQaAXj 41b01pH4gU29mOO VEjkL6lvinHEEo2rhNdIzHkupD9AVgy3 Y'
+2026-02-10 12:50:23,580 - __main__ - WARNING - Double 'a' rule detected >> 'eAl2DmfUOxHQOOlqokYioQUhQ9XFSmwLZAl JcVb PGBUCTBJElxlzP NgRh MV3zAhO0aaM DRe'
+2026-02-10 12:50:23,580 - __main__ - WARNING - Double 'a' rule detected >> 'YYzDgl3bCZgGqC M4aLxC7fJ9ykKvYtD9Yxb 7oYAADjbxxJUKmqMZA72lAULwyThRa6op8bVBAi7G1JgnWxuc hEXvl15wwbw2'
+2026-02-10 12:50:23,581 - __main__ - WARNING - Double 'a' rule detected >> 'FQxBkfv26j uoZX4p Y3R3rmL 8Ym9yhAaFCRJKZ3GDtL2WFQ96whBpRHP1Lt187zdsqCE'
+2026-02-10 12:50:23,581 - __main__ - WARNING - Double 'a' rule detected >> 'PzQinbnPVH3Ik5nIc2oXruQv0bIazn0YE5 xMmmDbo kLJ2J bLdTgZXxQxFpqkTlOSIefj Aybf IAa'
+2026-02-10 12:50:23,582 - __main__ - WARNING - Double 'a' rule detected >> 'sO4WHiDOEh1Wc3VwrgR133vsZtdkFSB BX7VI mKeWWcW HO7yY8r eB40yx5cvi7gLPWNaC37v7wE7Dt2RqybIjaaQXjz'
+2026-02-10 12:50:23,582 - __main__ - WARNING - Double 'a' rule detected >> 'WdtMDLhprFeThXJwO r5L9zcXtijwg uv6Rby XSE5NICVHQSpDjxmkUFaRcDnzaA8CF6ftVujolgc9Bm oclU'
+2026-02-10 12:50:23,583 - __main__ - WARNING - Double 'a' rule detected >> 'O9zfypwaUdek5LY PaA9QBdJgBDFSTO hJhIARjEjvALcus2Fmv lROIMB0j hS1gjv'
+2026-02-10 12:50:23,583 - __main__ - WARNING - Double 'a' rule detected >> '92vHu775HPfDLGaAPkV2voxBct2vNY3nutXjr7S3aSut BYUnVDacFjhq K6D5F HdvmFv0YOGw3aAoyPl gcGgU'
+2026-02-10 12:50:23,584 - __main__ - WARNING - Double 'a' rule detected >> 'bAjdfxmLdJ70CXXRIirvpC3OiQXGq0pR3u 3XoHrj 3o N6 kOAaLTMwm TQbS55AiGiBY7WdCWfrbrkqDtPVNZsU7t9p4'
+2026-02-10 12:50:23,584 - __main__ - WARNING - Double 'a' rule detected >> 'nzhWAA5GLtMgWnsfQ7Fj wxnBg7 ogXrlz X6RaN YNNiwWu96RA8h'
+2026-02-10 12:50:23,584 - __main__ - WARNING - Double 'a' rule detected >> '4VAIOeWlAADRgCMLF9 3aN V4OJCAQQkxzTfDsdeZ2Q6f 5HSELqkuqHyqVT4FQWDRYRVSo8 OIDCLABcxGom6uzTnr'
+2026-02-10 12:50:23,585 - __main__ - WARNING - Double 'a' rule detected >> 'Bit7n ZuxDHaa14 QOwTU cBshEWjmAZkwdOdBoOo BDcLNb q7w5fB'
+2026-02-10 12:50:23,585 - __main__ - WARNING - Double 'a' rule detected >> 'p YCquieS8OPUeQ tkz TrtULjKzp83Zu6odxFMPQg82ZJ1PlKPmsWAjpJwPcqVNEjkP9rnCb6RhX8bb O5HBqElGwAAI4K3tzrk'
+2026-02-10 12:50:23,585 - __main__ - WARNING - Double 'a' rule detected >> 'os dTWWcH0HG5g 37xTrKHUiU20UejEliGLYeKjOxsibm9eY1b np7j8x0u zAfujCxWshT0zsn3H bmvW3aAGhgpvL1YNq7'
+2026-02-10 12:50:23,586 - __main__ - WARNING - Double 'a' rule detected >> 'Lg8 WnYcWT1Qtj0KVKSaPyA8z908P tyFOPhDDMDSt8XCgvPBEvWY5D4NmAaRM Us89cggW6FTqgMsAujFuB4S7EdIPSzYnv3hes'
+2026-02-10 12:50:23,586 - __main__ - WARNING - Double 'a' rule detected >> 'i ihHfcaAtiICnea 7ifSE3 XG29klJ9 2fbaCBuv6kDY6ry1i IEmm5Ui'
+2026-02-10 12:50:23,586 - __main__ - WARNING - Double 'a' rule detected >> 'fmsrIAMsI0CRyvrQnRHcatCNmJGUz 8tQelrJZDwZ8V WUSsA9AAifk 7DvLLZ1 5cl3z'
+2026-02-10 12:50:23,587 - __main__ - WARNING - Double 'a' rule detected >> 'cNyVVK9GRsbzouV2R T2bBkB3 IR VU1tBMScDcMZQycjzWiXLVvSjHXAw03MeiYCkC266cDRP uBd2dOjKWL Naaa9'
+2026-02-10 12:50:23,587 - __main__ - WARNING - Double 'a' rule detected >> 'jzBOL Zdd mU0JcghhqzbMVvdZMWz 9ryUy5Y5aADzBh NB OQKpuE'
+2026-02-10 12:50:23,587 - __main__ - WARNING - Double 'a' rule detected >> 'g m1s5R1t30DH9i8kxwlAeCW aaGHKY71E diuImy8ypJFZNoilPpi 8b2 fqB'
+2026-02-10 12:50:23,588 - __main__ - WARNING - Double 'a' rule detected >> '0Q1gxFfZG d3msjKPcPLwdbtA8O9WIzbLWafj tK UGAA YV6gm 7NaRjki1PscT'
+2026-02-10 12:50:23,588 - __main__ - WARNING - Double 'a' rule detected >> 'x0e63kg0QJV8YWyRi U4cH3FLkA2qxR0WsUUWCCbxhAtAAc89qDsmo WWJ HQF3zO07lldpavE9'
+2026-02-10 12:50:23,589 - __main__ - WARNING - Double 'a' rule detected >> 'hP7gUYVB0SAGNMBlcoMuNmKMY3 dHyRKzNUmpbsM LRGu1UCUReN mivpaJw67H9kica9tLz5KlAa7u'
+2026-02-10 12:50:23,589 - __main__ - INFO - Processed 1000 chains from ('127.0.0.1', 52066) in 0.03 seconds
+2026-02-10 12:50:23,590 - __main__ - INFO - Socket connection closed from ('127.0.0.1', 52066)
+2026-02-10 12:50:23,644 - watchfiles.main - INFO - 4 changes detected
+2026-02-10 12:50:24,059 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:24,416 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:24,782 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:25,142 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:25,499 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:25,864 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:26,220 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:26,574 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:26,933 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:27,298 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:27,650 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:28,001 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:28,365 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:28,732 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:29,093 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:29,451 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:29,805 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:30,170 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:30,527 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:30,883 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:31,248 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:31,599 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:31,960 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:32,315 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:32,671 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:33,031 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:33,383 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:33,745 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:34,103 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:34,456 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:34,814 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:35,168 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:35,532 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:35,888 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:36,247 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:36,598 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:36,948 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:37,313 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:37,667 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:38,019 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:38,382 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:38,733 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:39,099 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:39,462 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:39,815 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:40,167 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:40,518 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:40,883 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:41,249 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:41,615 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:41,981 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:42,348 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:42,707 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:43,059 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:43,416 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:43,781 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:44,132 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:44,491 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:44,857 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:45,215 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:45,566 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:45,921 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:46,283 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:46,649 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:47,008 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:47,368 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:47,732 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:48,099 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:48,464 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:48,817 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:49,175 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:49,533 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:49,889 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:50,247 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:50,604 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:50,966 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:51,319 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:51,686 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:52,048 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:52,415 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:52,769 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:53,127 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:53,482 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:53,833 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:54,199 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:54,559 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:54,925 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:55,281 - watchfiles.main - INFO - 2 changes detected
+2026-02-10 12:50:55,644 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:56,007 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:56,359 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:56,725 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:57,087 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:57,449 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:57,801 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:58,166 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:58,521 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:58,883 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:59,236 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:59,599 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:50:59,956 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:00,314 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:00,678 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:01,031 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:01,390 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:01,756 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:02,108 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:02,466 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:02,817 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:03,182 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:03,549 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:03,905 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:04,266 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:04,632 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:04,985 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:05,348 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:05,699 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:06,063 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:06,416 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:06,772 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:07,131 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:07,498 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:07,863 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:08,229 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:08,583 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:08,937 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:09,297 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:09,649 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:10,016 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:10,381 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:10,750 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:11,113 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:11,465 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:11,816 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:12,182 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:12,533 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:12,887 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:13,243 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:13,600 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:13,964 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:14,316 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:14,671 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:15,038 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:15,399 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:15,759 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:16,116 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:16,482 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:16,833 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:17,188 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:17,550 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:17,909 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:18,262 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:18,615 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:18,966 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:19,317 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:19,682 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:20,034 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:20,399 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:20,766 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:21,132 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:21,484 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:21,848 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:22,200 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:22,553 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:22,915 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:23,267 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:23,632 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:23,984 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:24,349 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:24,701 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:25,051 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:25,415 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:25,782 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:26,134 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:26,499 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:26,858 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:27,215 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:27,567 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:27,932 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:28,299 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:28,650 - watchfiles.main - INFO - 2 changes detected
+2026-02-10 12:51:29,017 - watchfiles.main - INFO - 6 changes detected
+2026-02-10 12:51:29,382 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:29,734 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:30,099 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:30,450 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:30,816 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:31,167 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:31,520 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:31,882 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:32,234 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:32,599 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:32,952 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:33,306 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:33,671 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:34,024 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:34,382 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:34,742 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:35,100 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:35,451 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:35,817 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:36,182 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:36,533 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:36,899 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:37,262 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:37,625 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:37,982 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:38,345 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:38,708 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:39,060 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:39,411 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:39,774 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:40,126 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:40,482 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:40,840 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:41,195 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:41,556 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:41,911 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:42,262 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:42,615 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:42,970 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:43,332 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:43,692 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:44,053 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:44,416 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:44,768 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:45,134 - watchfiles.main - INFO - 2 changes detected
+2026-02-10 12:51:45,488 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:45,850 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:46,215 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:46,569 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:46,926 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:47,281 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:47,634 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:47,999 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:48,354 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:48,715 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:49,083 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:49,442 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:49,799 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:50,158 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:50,516 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:50,868 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:51,225 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:51,580 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:51,946 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:52,303 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:52,661 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:53,015 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:53,381 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:53,744 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:54,096 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:54,450 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:54,806 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:55,165 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:55,521 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:55,883 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:56,250 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:56,614 - watchfiles.main - INFO - 2 changes detected
+2026-02-10 12:51:56,999 - watchfiles.main - INFO - 6 changes detected
+2026-02-10 12:51:57,351 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:57,716 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:58,083 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:58,434 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:58,799 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:59,152 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:59,516 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:51:59,868 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:00,233 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:00,584 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:00,946 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:01,311 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:01,667 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:02,023 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:02,380 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:02,734 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:03,092 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:03,459 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:03,812 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:04,165 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:04,522 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:04,888 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:05,249 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:05,615 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:05,982 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:06,338 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:06,701 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:07,066 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:07,422 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:07,782 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:08,145 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:08,499 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:08,862 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:09,213 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:09,567 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:09,918 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:10,282 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:10,645 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:11,012 - watchfiles.main - INFO - 1 change detected
+2026-02-10 12:52:14,719 - __main__ - INFO - Starting Chain Weighting Server (Built-in Only)...
+2026-02-10 12:52:14,720 - __main__ - INFO - Socket server background thread started
+2026-02-10 12:52:14,725 - __main__ - INFO - Socket server started on localhost:8888
+2026-02-10 12:52:15,094 - __main__ - INFO - HTTP server started on 127.0.0.1:8000
+2026-02-10 12:52:15,094 - __main__ - INFO - API available at: http://127.0.0.1:8000/
