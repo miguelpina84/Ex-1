@@ -286,8 +286,18 @@ if __name__ == "__main__":
         socket_thread.start()
         logger.info("Socket server background thread started")
     
-    # Start HTTP server
-    try:
-        start_http_server()
-    except KeyboardInterrupt:
-        logger.info("Server shutting down...")
+    # Start HTTP server only if not disabled
+    http_enabled = os.getenv("CHAIN_HTTP_ENABLED", "true").lower() == "true"
+    if http_enabled:
+        try:
+            start_http_server()
+        except KeyboardInterrupt:
+            logger.info("Server shutting down...")
+    else:
+        # Keep main thread alive
+        logger.info("HTTP server disabled. Press Ctrl+C to exit.")
+        try:
+            while True:
+                time.sleep(1)
+        except KeyboardInterrupt:
+            logger.info("Server shutting down...")

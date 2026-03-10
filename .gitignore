@@ -1,3 +1,37 @@
-#Enviroment files
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated files (runtime)
+logs/
+data/
+
+# Documentation (exam requires simple README only)
+docs/
+
+# Tests (not required for exam)
+tests/
+
+# Collections (Postman - not required)
+collections/
+
+# Environment
 .env
-.venv
