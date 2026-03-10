@@ -17,6 +17,7 @@ from ..models.chain_models import ChainRequest, ChainResponse, ChainResult, Heal
 from ..core.chain_processor import ChainProcessor
 from ..config.environment import get_config
 
+# cargar confguracion general
 config = get_config()
 config.create_directories()
 
@@ -85,9 +86,9 @@ def handle_socket_client(client_socket, address):
                 response = '\n'.join(results) + '\n'
                 client_socket.sendall(response.encode('utf-8'))
         
-        end_time = time.time()
-        processing_time = end_time - start_time
+        processing_time = time.time() - start_time
         logger.info(f"Processed {chains_received} chains from {address} in {processing_time:.2f} seconds")
+        logger.info(f"Process completed in {processing_time:.2f} seconds")
         
     except Exception as e:
         logger.error(f"Error handling socket client {address}: {e}")
