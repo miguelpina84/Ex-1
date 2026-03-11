@@ -14,30 +14,28 @@ import time
 from typing import List
 import json
 
-# Get configuration and create required directories
-from src.config.environment import get_config
-config = get_config()
-os.makedirs(config.paths.logs_directory, exist_ok=True)
-os.makedirs(config.paths.input_directory, exist_ok=True)
-os.makedirs(config.paths.output_directory, exist_ok=True)
+from src.config.environment import (
+    LOG_LEVEL, LOG_FORMAT, CLIENT_LOG_FILE, LOG_DIR,
+    INPUT_DIR, OUTPUT_DIR, create_directories
+)
 
-# Configure logging using configuration
-# Get the root logger and add handlers to it
+create_directories()
+
 root_logger = logging.getLogger()
-root_logger.setLevel(logging.INFO)
+root_logger.setLevel(getattr(logging, LOG_LEVEL))
 
-# Create and add file handler
-file_handler = logging.FileHandler(os.path.join(config.paths.logs_directory, config.logging.client_log_file))
-file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler = logging.FileHandler(os.path.join(LOG_DIR, CLIENT_LOG_FILE))
+file_formatter = logging.Formatter(LOG_FORMAT)
 file_handler.setFormatter(file_formatter)
 root_logger.addHandler(file_handler)
 
-# Add console handler
 console_handler = logging.StreamHandler()
-console_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+console_formatter = logging.Formatter(LOG_FORMAT)
 console_handler.setFormatter(console_formatter)
 root_logger.addHandler(console_handler)
+
 logger = logging.getLogger(__name__)
+
 
 def generate_random_chain() -> str:
     """
@@ -91,9 +89,8 @@ def generate_chains_file(filename: str = None, count: int = 1000000) -> None:
     """
     # Use default path if not specified
     if filename is None:
-        from src.config.environment import get_config
-        config = get_config()
-        filename = os.path.join(config.paths.input_directory, "chains.txt")
+        from src.config.environment import INPUT_DIR
+        filename = os.path.join(INPUT_DIR, "chains.txt")
     
     logger.info(f"Generating {count} chains to {filename}")
     start_time = time.time()
@@ -122,9 +119,8 @@ def read_chains_from_file(filename: str = None) -> List[str]:
     """
     # Use default path if not specified
     if filename is None:
-        from src.config.environment import get_config
-        config = get_config()
-        filename = os.path.join(config.paths.input_directory, "chains.txt")
+        from src.config.environment import INPUT_DIR
+        filename = os.path.join(INPUT_DIR, "chains.txt")
     
     logger.info(f"Reading chains from {filename}")
     chains = []
@@ -226,9 +222,8 @@ def save_results_to_file(results: dict, filename: str = None) -> None:
     """
     # Use default path if not specified
     if filename is None:
-        from src.config.environment import get_config
-        config = get_config()
-        filename = os.path.join(config.paths.output_directory, "results.json")
+        from src.config.environment import OUTPUT_DIR
+        filename = os.path.join(OUTPUT_DIR, "results.json")
     
     logger.info(f"Saving results to {filename}")
     
