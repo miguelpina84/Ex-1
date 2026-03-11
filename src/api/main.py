@@ -71,8 +71,11 @@ def handle_socket_client(client_socket, address):
         start_time = time.time()
         chains_received = 0
         
-        data = client_socket.recv(SOCKET_BUFFER_SIZE * 10)
-        if data:
+        while True:
+            data = client_socket.recv(SOCKET_BUFFER_SIZE)
+            if not data:
+                break
+            
             chains = data.decode('utf-8').strip().split('\n')
             results = []
             
@@ -100,6 +103,7 @@ def start_socket_server():
     """Start socket server in background thread"""
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+    server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_KEEPALIVE, 1)
     
     try:
         server_socket.bind((SOCKET_HOST, SOCKET_PORT))

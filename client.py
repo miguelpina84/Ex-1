@@ -142,6 +142,7 @@ def read_chains_from_file(filename: str = None) -> List[str]:
 def send_chains_to_server(chains: List[str], server_address: str = "127.0.0.1:8888") -> dict:
     """
     Send chains to server for processing via socket connection.
+    Uses batching for large datasets.
     
     Args:
         chains: List of chain strings
@@ -150,7 +151,6 @@ def send_chains_to_server(chains: List[str], server_address: str = "127.0.0.1:88
     Returns:
         Dictionary with results containing weights
     """
-    # Parse server address
     if ':' in server_address:
         host, port = server_address.split(':')
         port = int(port)
@@ -162,38 +162,49 @@ def send_chains_to_server(chains: List[str], server_address: str = "127.0.0.1:88
     logger.info(f"Sending {len(chains)} chains to server")
     start_time = time.time()
     
+    BATCH_SIZE = 10000
+    all_weights = []
+    
     try:
-        # Create socket connection
         client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        client_socket.settimeout(600)
         client_socket.connect((host, port))
         
-        # Send chains as newline-separated text
-        chains_data = '\n'.join(chains) + '\n'
-        client_socket.sendall(chains_data.encode('utf-8'))
-        
-        # Receive results
-        results_data = b''
-        while True:
-            chunk = client_socket.recv(65536)
-            if not chunk:
-                break
-            results_data += chunk
+        for i in range(0, len(chains), BATCH_SIZE):
+            batch = chains[i:i + BATCH_SIZE]
+            batch_data = '\n'.join(batch) + '\n'
+            client_socket.sendall(batch_data.encode('utf-8'))
+            
+            batch_results = b''
+            while True:
+                try:
+                    chunk = client_socket.recv(65536)
+                    if not chunk:
+                        break
+                    batch_results += chunk
+                    if b'\n' in batch_results:
+                        break
+                except socket.timeout:
+                    break
+            
+            if batch_results:
+                results_text = batch_results.decode('utf-8').strip()
+                weights = [float(w) for w in results_text.split('\n') if w.strip()]
+                all_weights.extend(weights)
+            
+            logger.info(f"Sent batch {i//BATCH_SIZE + 1}/{(len(chains) + BATCH_SIZE - 1)//BATCH_SIZE}")
         
         client_socket.close()
         
-        # Parse results
-        results_text = results_data.decode('utf-8').strip()
-        weights = [float(w) for w in results_text.split('\n') if w.strip()]
-        
-        # Format response similar to HTTP API
+        # Format response
         result = {
             "status": "success",
             "chains_processed": len(chains),
-            "weights": weights,
+            "weights": all_weights,
             "summary": {
-                "min": min(weights) if weights else 0,
-                "max": max(weights) if weights else 0,
-                "average": sum(weights) / len(weights) if weights else 0
+                "min": min(all_weights) if all_weights else 0,
+                "max": max(all_weights) if all_weights else 0,
+                "average": sum(all_weights) / len(all_weights) if all_weights else 0
             }
         }
         
