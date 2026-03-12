@@ -11,7 +11,6 @@ A client-server solution for analyzing character chain weighting metrics.
 
 ```bash
 # No installation needed - uses Python built-in only
-# Optional: pip install python-dotenv  (only if using .env files)
 ```
 
 ## Running the System
@@ -22,7 +21,7 @@ A client-server solution for analyzing character chain weighting metrics.
 python -m src.api.main
 ```
 
-Server runs on `127.0.0.1:8888` (socket) and `127.0.0.1:8000` (HTTP).
+Server runs on `127.0.0.1:8888` (socket).
 
 ### 2. Run the Client
 
@@ -46,14 +45,12 @@ This will:
 | `--server` | Server address (host:port) | 127.0.0.1:8888 |
 | `--generate-only` | Only generate chains file | false |
 
-### Server Configuration (environment variables)
-- `CHAIN_SOCKET_PORT`: Socket server port (default: 8888)
-- `CHAIN_SERVER_PORT`: HTTP server port (default: 8000)
-- `CHAIN_LOG_LEVEL`: Log level (default: INFO)
-
 ## Testing
 
 ```bash
-# Quick test - generate 10 chains
+# Generate chains only (no server required)
 python client.py --count 10 --generate-only
+
+# Generate and process (requires server running)
+python client.py --count 10
 ```
